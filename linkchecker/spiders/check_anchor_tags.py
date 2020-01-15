@@ -8,8 +8,8 @@ from twisted.internet.error import TimeoutError
 
 class CheckAnchorTagsSpider(scrapy.Spider):
     name = 'check_anchor_tags'
-    domain = 'sportsingapore.gov.sg'
-    start_urls = ['https://www.sportsingapore.gov.sg/']
+    domain = 'hdb.gov.sg'
+    start_urls = ['https://www.hdb.gov.sg/cs/infoweb/homepage']
     handle_httpstatus_list = [301,302,308,400,403,404,410,500,502]
 
     def parse(self, response):
