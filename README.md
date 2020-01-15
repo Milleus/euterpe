@@ -53,7 +53,7 @@ Go into demo-dashboard folder and run either of these commands:
 
   You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## To do
+## To Do
 
 1. Allow input of website URL (currently hardcoded).
 2. Allow checking of img src links.
@@ -61,3 +61,13 @@ Go into demo-dashboard folder and run either of these commands:
 4. Allow customisable settings for download timeout, DNS timeout, number of retries, etc.
 5. Improve error handling.
 6. Extract crawler statistics data (already exists but only in console).
+
+## Credits
+
+This is a Government Digital Services (GDS) GovTech Hackweek Jan 2020 project. Team members involved are:
+
+- Cecilia Lim
+- Chan Win Hung
+- Cheong Jie Wei
+- Dave Quah
+- Lim Kim Yong
