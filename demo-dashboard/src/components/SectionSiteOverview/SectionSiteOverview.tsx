@@ -2,6 +2,7 @@ import React, { FC } from "react";
 
 import ChartDoughnut from "../../shared-components/ChartDoughnut";
 import Tooltip from "../../shared-components/Tooltip";
+import Card from "../../shared-components/Card";
 
 const SectionSiteOverview: FC<{}> = () => {
   const chartData = {
@@ -18,25 +19,25 @@ const SectionSiteOverview: FC<{}> = () => {
 
   return (
     <div className="my-4">
-      <h3>Overview</h3>
+      <h1>Overview</h1>
       <p className="mb-4">Highlights of scan site</p>
 
       <div className="flex -mx-4">
         <div className="w-full sm:1/2 px-4">
-          <div className="border border-gray-400 rounded shadow p-4">
-            <h3 className="mb-2 ">Site Links Overview</h3>
+          <Card>
+            <h3 className="mb-4">Site Links Overview</h3>
             <ChartDoughnut data={chartData} />
-          </div>
+          </Card>
         </div>
 
         <div className="w-full sm:1/2 px-4 flex flex-col">
-          <div className="flex-grow border border-gray-400 rounded shadow p-4 mb-4">
-            <h3 className="mb-2 ">Total Links</h3>
-            <h2>4,620</h2>
-          </div>
+          <Card className="flex-grow mb-4">
+            <h3 className="mb-4 ">Total Links</h3>
+            <h1>4,620</h1>
+          </Card>
 
-          <div className="flex-grow border border-gray-400 rounded shadow p-4">
-            <h3 className="mb-2 flex items-center">
+          <Card className="flex-grow mt-4">
+            <h3 className="mb-4 flex items-center">
               Total Broken Links
               <Tooltip iconClassName="fa fa-info-circle">
                 A dead link on a web page that no longer works, it is further
@@ -45,9 +46,9 @@ const SectionSiteOverview: FC<{}> = () => {
                 to another page on another website)
               </Tooltip>
             </h3>
-            <h2 className="mb-2">36</h2>
+            <h1 className="mb-4">36</h1>
             <p>Internal: 28 External: 8</p>
-          </div>
+          </Card>
         </div>
       </div>
     </div>

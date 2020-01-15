@@ -3,13 +3,14 @@ import React, { FC } from "react";
 import Button, { ButtonAppearance } from "../../shared-components/Button";
 import Tab from "../../shared-components/Tab";
 import TabItem from "../../shared-components/TabItem";
+import Card from "../../shared-components/Card";
 
 const SectionSiteReport: FC<{}> = () => {
   return (
     <div className="my-4 mt-8">
       <div className="flex items-center justify-between">
         <div>
-          <h3>Broken Link Report</h3>
+          <h1>Broken Link Report</h1>
           <p className="mb-4">Displaying all detected broken links</p>
         </div>
         <Button appearance={ButtonAppearance.PRIMARY}>Export</Button>
@@ -17,13 +18,28 @@ const SectionSiteReport: FC<{}> = () => {
 
       <Tab initialIndex={0}>
         <TabItem title="Internal" value={28}>
-          smlj 1
+          <Card>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+            voluptatem ullam voluptates voluptas recusandae a inventore incidunt
+            excepturi totam animi molestiae sapiente asperiores expedita
+            molestias, soluta dolores, doloremque eos dicta.
+          </Card>
         </TabItem>
         <TabItem title="External" value={8}>
-          smlj asdasdasd2
+          <Card>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste
+            deleniti officia nobis magni. Dolore repellendus enim earum, tempore
+            repellat ducimus accusamus mollitia temporibus blanditiis nemo,
+            quasi molestiae voluptate porro eos.
+          </Card>
         </TabItem>
         <TabItem title="All" value={36}>
-          smlasdasdasdasj 3
+          <Card>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+            voluptatem ullam voluptates voluptas recusandae a inventore incidunt
+            excepturi totam animi molestiae sapiente asperiores expedita
+            molestias, soluta dolores, doloremque eos dicta.
+          </Card>
         </TabItem>
       </Tab>
     </div>

@@ -12,16 +12,18 @@ const DashboardPage: FC<{}> = () => {
     <>
       <PageHeader />
 
-      <GridContainer>
-        <div className="flex -mx-4">
-          <div className="w-full px-4">
-            <SectionSiteDetails />
-            <hr></hr>
-            <SectionSiteOverview />
-            <SectionSiteReport />
+      <div className="bg-gray-100">
+        <GridContainer>
+          <div className="flex -mx-4">
+            <div className="w-full px-4">
+              <SectionSiteDetails />
+              <hr></hr>
+              <SectionSiteOverview />
+              <SectionSiteReport />
+            </div>
           </div>
-        </div>
-      </GridContainer>
+        </GridContainer>
+      </div>
 
       <PageFooter />
     </>

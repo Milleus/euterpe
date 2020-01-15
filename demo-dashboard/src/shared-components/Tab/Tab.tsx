@@ -36,8 +36,10 @@ const Tab: FC<Props> = ({ initialIndex = 0, children }) => {
         onClick={handleClick}
         data-index={index}
       >
-        {title}
-        {value && <span className="font-normal"> ({value})</span>}
+        <h3>
+          {title}
+          {value && <span className="font-normal"> ({value})</span>}
+        </h3>
       </button>
     );
   };
@@ -53,7 +55,7 @@ const Tab: FC<Props> = ({ initialIndex = 0, children }) => {
   return (
     <div>
       <div className="flex border-b">{Children.map(children, renderList)}</div>
-      <div className="p-4">{Children.map(children, renderContent)}</div>
+      <div className="mt-8">{Children.map(children, renderContent)}</div>
     </div>
   );
 };
