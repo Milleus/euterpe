@@ -1,0 +1,36 @@
+.socialLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 2.25rem;
+  width: 2.25rem;
+  position: relative;
+  transition: color 0.25s ease-in-out;
+
+  i {
+    font-size: 1.5rem;
+    z-index: 1;
+  }
+
+  &::before {
+    content: "";
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    height: 2.25rem;
+    width: 2.25rem;
+    transform: scale(0);
+    transition: transform 0.25s ease-in-out;
+  }
+
+  &:hover,
+  &:focus {
+    color: #2a4365;
+    text-decoration: none;
+
+    &::before {
+      transform: scale(1);
+    }
+  }
+}

@@ -1,0 +1,69 @@
+@tailwind base;
+
+* {
+  @apply font-sans;
+}
+
+body {
+  @apply text-base;
+  @apply font-normal;
+  @apply leading-normal;
+  @apply antialiased;
+}
+
+h1 {
+  @apply text-3xl;
+  @apply font-semibold;
+  @apply leading-tight;
+}
+
+h2 {
+  @apply text-2xl;
+  @apply font-semibold;
+  @apply leading-tight;
+  @apply text-blue-900;
+}
+
+h3 {
+  @apply text-xl;
+  @apply font-semibold;
+  @apply leading-tight;
+}
+
+h4 {
+  @apply text-lg;
+  @apply font-normal;
+  @apply leading-tight;
+}
+
+a {
+  @apply text-blue-400;
+  @apply font-semibold;
+  @apply no-underline;
+}
+
+a:active,
+a:hover,
+a:focus {
+  @apply underline;
+}
+
+/* icons */
+.far {
+  font-family: "Font Awesome 5 Pro";
+  @apply font-normal;
+}
+
+.fa,
+.fas {
+  font-family: "Font Awesome 5 Pro";
+  @apply font-black;
+}
+
+.fab {
+  font-family: "Font Awesome 5 Brands";
+}
+
+@tailwind components;
+
+@tailwind utilities;
