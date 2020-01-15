@@ -2,14 +2,11 @@
 
 Euterpe is a web crawler that searches a website for internal and external broken links. Crawler is written in Python. Demo dashboard was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Installation Steps
-
-1. Install python and pip.
-2. Install scrapy with `pip install scrapy`.
-
 ## Commands
 
 ### Crawler
+
+Requires scrapy installed, `pip install scrapy`.
 
 - `scrapy crawl check_anchor_tags -t <type> -o <filename>`
 
