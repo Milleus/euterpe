@@ -2,9 +2,7 @@ import classnames from "classnames";
 import React, { FC, ReactNode, MouseEventHandler } from "react";
 
 export enum ButtonAppearance {
-  PRIMARY = "primary",
-  SECONDARY = "secondary",
-  TERTIARY = "tertiary"
+  PRIMARY = "primary"
 }
 
 interface Props {
@@ -18,7 +16,7 @@ interface Props {
 const Button: FC<Props> = ({
   appearance,
   children,
-  type = "submit",
+  type = "button",
   onClick,
   className
 }) => {
