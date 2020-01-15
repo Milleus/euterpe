@@ -1,6 +1,8 @@
 import React, { FC } from "react";
 
 import Button, { ButtonAppearance } from "../../shared-components/Button";
+import Tab from "../../shared-components/Tab";
+import TabItem from "../../shared-components/TabItem";
 
 const SectionSiteReport: FC<{}> = () => {
   return (
@@ -13,7 +15,17 @@ const SectionSiteReport: FC<{}> = () => {
         <Button appearance={ButtonAppearance.PRIMARY}>Export</Button>
       </div>
 
-      {/* tabs and beyond */}
+      <Tab initialIndex={0}>
+        <TabItem title="Internal" value={28}>
+          smlj 1
+        </TabItem>
+        <TabItem title="External" value={8}>
+          smlj asdasdasd2
+        </TabItem>
+        <TabItem title="All" value={36}>
+          smlasdasdasdasj 3
+        </TabItem>
+      </Tab>
     </div>
   );
 };

@@ -1,6 +1,7 @@
 import React, { FC } from "react";
 
 import ChartDoughnut from "../../shared-components/ChartDoughnut";
+import Tooltip from "../../shared-components/Tooltip";
 
 const SectionSiteOverview: FC<{}> = () => {
   const chartData = {
@@ -35,7 +36,15 @@ const SectionSiteOverview: FC<{}> = () => {
           </div>
 
           <div className="flex-grow border border-gray-400 rounded shadow p-4">
-            <h3 className="mb-2 ">Total Broken Links</h3>
+            <h3 className="mb-2 flex items-center">
+              Total Broken Links
+              <Tooltip iconClassName="fa fa-info-circle">
+                A dead link on a web page that no longer works, it is further
+                broken down into internal link ( link that points to another
+                page on the same website) and external link ( link that points
+                to another page on another website)
+              </Tooltip>
+            </h3>
             <h2 className="mb-2">36</h2>
             <p>Internal: 28 External: 8</p>
           </div>
