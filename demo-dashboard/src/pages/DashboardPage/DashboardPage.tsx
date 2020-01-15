@@ -14,9 +14,7 @@ const DashboardPage: FC<{}> = () => {
 
       <GridContainer>
         <div className="flex -mx-4">
-          <div className="w-full px-4 sm:w-1/4 bg-gray-300">asdasdasd</div>
-
-          <div className="w-full px-4 sm:w-3/4">
+          <div className="w-full px-4">
             <SectionSiteDetails />
             <hr></hr>
             <SectionSiteOverview />
