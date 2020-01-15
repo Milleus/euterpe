@@ -23,19 +23,14 @@ const Button: FC<Props> = ({
   className
 }) => {
   const buttonConditionalClass = {
-    "bg-blue-700 text-white border-blue-700":
-      appearance === ButtonAppearance.PRIMARY,
-    "bg-blue-200 text-blue-700 border-blue-200":
-      appearance === ButtonAppearance.SECONDARY,
-    "bg-white text-blue-700 border-blue-700":
-      appearance === ButtonAppearance.TERTIARY
+    "bg-gray-400 border-gray-400": appearance === ButtonAppearance.PRIMARY
   };
 
   return (
     <button
       type={type}
       className={classnames(
-        `font-semibold py-2 px-4 border-2 rounded focus:outline-none hover:shadow-md`,
+        `py-2 px-4 border-2 rounded focus:outline-none hover:shadow-md`,
         buttonConditionalClass,
         className
       )}

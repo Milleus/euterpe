@@ -21,7 +21,6 @@ h2 {
   @apply text-2xl;
   @apply font-semibold;
   @apply leading-tight;
-  @apply text-blue-900;
 }
 
 h3 {

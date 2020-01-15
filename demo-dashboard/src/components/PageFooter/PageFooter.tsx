@@ -70,9 +70,9 @@ const PageFooter: FC<{}> = () => {
   };
 
   return (
-    <footer className="bg-blue-900 text-white py-5 mt-20">
+    <footer className="bg-gray-600 text-white py-5 mt-20">
       <GridContainer>
-        <h2 className="font-sans text-white mb-5">CDKJW</h2>
+        <h2 className="font-sans text-white mb-5">SITE CHECKER</h2>
 
         <div className="flex flex-col w-full items-start justify-center lg:flex-row lg:items-center lg:justify-end">
           {renderFeedbackLinks()}

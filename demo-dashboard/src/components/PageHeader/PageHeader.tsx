@@ -6,7 +6,7 @@ import { DUMMY_LINK } from "../../routes";
 const PageHeader: FC<{}> = () => {
   return (
     <Navbar>
-      <h2 className="text-white">CDKJW</h2>
+      <h2 className="text-white">SITE CHECKER</h2>
       <a href={DUMMY_LINK} className="text-white">
         Link 1
       </a>

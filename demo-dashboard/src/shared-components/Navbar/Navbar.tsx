@@ -16,7 +16,7 @@ const Navbar: FC<Props> = ({ children }) => {
   });
 
   return (
-    <nav className="bg-blue-900">
+    <nav className="bg-gray-600">
       <GridContainer>
         <ul className="flex items-center h-16 min-h-full">{links}</ul>
       </GridContainer>
