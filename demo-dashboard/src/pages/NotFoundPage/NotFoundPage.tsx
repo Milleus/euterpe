@@ -6,7 +6,7 @@ import { ADHOC_SCAN_PAGE } from "../../routes";
 
 const NotFoundPage: FC<{}> = () => {
   return (
-    <div className="bg-gray-100 min-h-screen flex flex-col justify-between">
+    <div className="min-h-screen flex flex-col justify-between">
       <PageHeader />
 
       <div className="flex flex-col justify-center items-center">

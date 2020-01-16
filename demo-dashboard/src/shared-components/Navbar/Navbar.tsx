@@ -1,25 +1,23 @@
 import React, { FC, ReactNode, Children } from "react";
 
-import GridContainer from "../GridContainer";
-
 interface Props {
   children: ReactNode;
 }
 
 const Navbar: FC<Props> = ({ children }) => {
-  const links = Children.map(children, (child: ReactNode, index: number) => {
+  const renderLinks = (child: ReactNode, index: number) => {
     return (
-      <li key={index} className="mr-5">
+      <li key={index} className="mr-4">
         {child}
       </li>
     );
-  });
+  };
 
   return (
-    <nav className="bg-gray-600">
-      <GridContainer>
-        <ul className="flex items-center h-16 min-h-full">{links}</ul>
-      </GridContainer>
+    <nav>
+      <ul className="flex items-center py-8 min-h-full">
+        {Children.map(children, renderLinks)}
+      </ul>
     </nav>
   );
 };

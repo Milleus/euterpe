@@ -7,10 +7,10 @@ import Card from "../../shared-components/Card";
 
 const SectionSiteReport: FC<{}> = () => {
   return (
-    <div className="my-4 mt-8">
+    <div className="my-8">
       <div className="flex items-center justify-between">
         <div>
-          <h1>Broken Link Report</h1>
+          <h2>Broken Link Report</h2>
           <p className="mb-4">Displaying all detected broken links</p>
         </div>
         <Button appearance={ButtonAppearance.PRIMARY}>Export</Button>

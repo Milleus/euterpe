@@ -21,7 +21,8 @@ const Button: FC<Props> = ({
   className
 }) => {
   const buttonConditionalClass = {
-    "bg-gray-400 border-gray-400": appearance === ButtonAppearance.PRIMARY
+    "bg-checker-primary border-checker-primary text-white":
+      appearance === ButtonAppearance.PRIMARY
   };
 
   return (

@@ -124,6 +124,13 @@ module.exports = {
         700: "#b83280",
         800: "#97266d",
         900: "#702459"
+      },
+
+      checker: {
+        primary: "#4860af",
+        secondary: "#d50d0d",
+        tertiary: "#800908",
+        quarternary: "#f7f7f7"
       }
     },
     spacing: {

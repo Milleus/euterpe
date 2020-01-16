@@ -9,6 +9,7 @@ body {
   @apply font-normal;
   @apply leading-normal;
   @apply antialiased;
+  @apply bg-checker-quarternary;
 }
 
 h1 {

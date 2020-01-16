@@ -27,7 +27,7 @@ const Tab: FC<Props> = ({ initialIndex = 0, children }) => {
 
     const { title, value } = child.props;
     const conditionalClass = {
-      "border-b-2 border-gray-400": index === activeIndex
+      "border-b-2 border-checker-primary": index === activeIndex
     };
 
     return (
