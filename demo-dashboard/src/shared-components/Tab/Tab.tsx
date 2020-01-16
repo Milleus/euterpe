@@ -38,7 +38,9 @@ const Tab: FC<Props> = ({ initialIndex = 0, children }) => {
       >
         <h3>
           {title}
-          {value && <span className="font-normal"> ({value})</span>}
+          {value && (
+            <span className="font-normal text-gray-500"> ({value})</span>
+          )}
         </h3>
       </button>
     );
