@@ -70,7 +70,7 @@ const PageFooter: FC<{}> = () => {
   };
 
   return (
-    <footer className="bg-gray-700 text-white py-4 mt-8">
+    <footer className="bg-gray-700 text-white py-8 mt-8">
       <GridContainer>
         <h2 className="font-sans text-white mb-4">SITE CHECKER</h2>
 
