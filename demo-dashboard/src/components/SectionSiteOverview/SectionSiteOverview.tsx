@@ -46,7 +46,7 @@ const SectionSiteOverview: FC<{}> = () => {
                 another page on another website)
               </Tooltip>
             </h3>
-            <h1 className="mb-4">36</h1>
+            <h1 className="mb-4 text-checker-secondary">36</h1>
             <p>Internal: 28 External: 8</p>
           </Card>
         </div>
