@@ -4,6 +4,11 @@
   @apply font-sans;
 }
 
+body,
+#root {
+  @apply min-h-screen;
+}
+
 body {
   @apply text-base;
   @apply font-normal;
@@ -37,7 +42,7 @@ h4 {
 }
 
 a {
-  @apply text-blue-400;
+  @apply text-blue-500;
   @apply font-semibold;
   @apply no-underline;
 }

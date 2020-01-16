@@ -2,7 +2,8 @@ import classnames from "classnames";
 import React, { FC, ReactNode, MouseEventHandler } from "react";
 
 export enum ButtonAppearance {
-  PRIMARY = "primary"
+  PRIMARY = "primary",
+  SECONDARY = "secondary"
 }
 
 interface Props {
@@ -22,14 +23,16 @@ const Button: FC<Props> = ({
 }) => {
   const buttonConditionalClass = {
     "bg-checker-primary border-checker-primary text-white":
-      appearance === ButtonAppearance.PRIMARY
+      appearance === ButtonAppearance.PRIMARY,
+    "bg-white border-checker-primary text-checker-primary":
+      appearance === ButtonAppearance.SECONDARY
   };
 
   return (
     <button
       type={type}
       className={classnames(
-        `py-2 px-4 border-2 rounded focus:outline-none hover:shadow-md`,
+        `py-2 px-4 border-2 font-semibold rounded hover:shadow-md`,
         buttonConditionalClass,
         className
       )}
