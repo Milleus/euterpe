@@ -9,24 +9,22 @@ import SectionSiteReport from "../../components/SectionSiteReport";
 
 const DashboardPage: FC<{}> = () => {
   return (
-    <>
+    <div className="bg-gray-100">
       <PageHeader />
 
-      <div className="bg-gray-100">
-        <GridContainer>
-          <div className="flex -mx-4">
-            <div className="w-full px-4">
-              <SectionSiteDetails />
-              <hr></hr>
-              <SectionSiteOverview />
-              <SectionSiteReport />
-            </div>
+      <GridContainer>
+        <div className="flex -mx-4">
+          <div className="w-full px-4">
+            <SectionSiteDetails />
+            <hr></hr>
+            <SectionSiteOverview />
+            <SectionSiteReport />
           </div>
-        </GridContainer>
-      </div>
+        </div>
+      </GridContainer>
 
       <PageFooter />
-    </>
+    </div>
   );
 };
 

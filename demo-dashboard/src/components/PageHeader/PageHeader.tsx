@@ -1,20 +1,19 @@
 import React, { FC } from "react";
 
 import Navbar from "../../shared-components/Navbar";
-import { DUMMY_LINK } from "../../routes";
+import { DUMMY_LINK, ADHOC_SCAN_PAGE, DASHBOARD_PAGE } from "../../routes";
 
 const PageHeader: FC<{}> = () => {
   return (
     <Navbar>
-      <h2 className="text-white">SITE CHECKER</h2>
-      <a href={DUMMY_LINK} className="text-white">
-        Link 1
+      <a href={DUMMY_LINK}>
+        <h2 className="text-white">SITE CHECKER</h2>
       </a>
-      <a href={DUMMY_LINK} className="text-white">
-        Link 2
+      <a href={ADHOC_SCAN_PAGE} className="text-white">
+        Adhoc Scan
       </a>
-      <a href={DUMMY_LINK} className="text-white">
-        Link 3
+      <a href={DASHBOARD_PAGE} className="text-white">
+        Dashboard
       </a>
     </Navbar>
   );

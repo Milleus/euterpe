@@ -85,14 +85,16 @@ const PageFooter: FC<{}> = () => {
 
         <div className="flex justify-start lg:justify-end mt-6 mb-4">
           <div className="flex flex-col lg:flex-row text-sm">
-            <span>&copy; {new Date().getFullYear()} CDKJW.&nbsp;</span>
+            <span>
+              &copy; {new Date().getFullYear()} GovTech Hackweek.&nbsp;
+            </span>
             <span>Last Updated on 15 Jan 2020.</span>
           </div>
         </div>
 
         <div className="flex items-center justify-start lg:justify-center text-sm font-semibold">
-          This website is optimised for IE version 10, 11, Firefox, Chrome,
-          Safari.
+          Created by Cecilia Lim, Chan Win Hung, Cheong Jie Wei, Dave Quah, Lim
+          Kim Yong.
         </div>
       </GridContainer>
     </footer>
