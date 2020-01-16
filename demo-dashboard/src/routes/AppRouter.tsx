@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import React, { FC, Suspense, lazy } from "react";
 
 import * as Paths from "./index";
