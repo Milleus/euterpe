@@ -2,7 +2,7 @@
 
 Euterpe is a web crawler that searches a website for internal and external broken links. Crawler is written in Python. Demo dashboard was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Commands
+## Available Scripts
 
 ### Crawler
 
@@ -55,12 +55,14 @@ Go into demo-dashboard folder and run either of these commands:
 
 ## To Do
 
-1. Allow input of website URL (currently hardcoded).
-2. Allow checking of img src links.
-3. Allow checking of script source links, css stylesheet links, favicon, etc?
-4. Allow customisable settings for download timeout, DNS timeout, number of retries, etc.
-5. Improve error handling.
-6. Extract crawler statistics data (already exists but only in console).
+1. ~~Map data with clicks data.~~
+2. Map data with page views data.
+3. Allow input of website URL (currently hardcoded).
+4. Allow checking of img src links.
+5. Allow checking of script source links, css stylesheet links, favicon, etc?
+6. Allow customisable settings for download timeout, DNS timeout, number of retries, etc.
+7. Improve error handling.
+8. Extract crawler statistics data (already exists but only in console).
 
 ## Credits
 
