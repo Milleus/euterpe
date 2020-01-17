@@ -36,13 +36,17 @@ const columns: Array<FilterColumn<RowData>> = [
     Header: "URL",
     Cell: ({ row: { original } }) => (
       <div>
-        <a href={original.resolved_url} target="_blank">
+        <a
+          href={original.resolved_url}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           {original.attr_href}
         </a>
         <br />
         <span className="text-xs">
           Linked from{" "}
-          <a href={original.page_url} target="_blank">
+          <a href={original.page_url} target="_blank" rel="noopener noreferrer">
             {original.page_url}
           </a>
         </span>{" "}
