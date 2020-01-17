@@ -1,11 +1,6 @@
 import React, { FC } from "react";
 
-import Button, { ButtonAppearance } from "../../shared-components/Button";
-import Tab from "../../shared-components/Tab";
-import TabItem from "../../shared-components/TabItem";
-import Table from "../../shared-components/Table";
 import { FilterColumn } from "../../shared-components/Table/Table";
-import SelectFilter from "../../shared-components/Table/SelectFilter";
 import {
   internalBroken,
   externalBroken,
@@ -14,6 +9,11 @@ import {
   externalData,
   allData
 } from "../../data/utils";
+import Button, { ButtonAppearance } from "../../shared-components/Button";
+import SelectFilter from "../../shared-components/Table/SelectFilter";
+import Tab from "../../shared-components/Tab";
+import TabItem from "../../shared-components/TabItem";
+import Table from "../../shared-components/Table";
 import Tooltip from "../../shared-components/Tooltip";
 
 interface RowData {

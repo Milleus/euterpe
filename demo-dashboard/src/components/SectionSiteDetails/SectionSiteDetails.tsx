@@ -16,7 +16,7 @@ const SectionSiteDetails: FC<RouteComponentProps> = ({ history }) => {
         <GridContainer>
           <div className="flex items-end text-white py-4">
             <span>Displaying data for&nbsp;</span>
-            <h2>hdb.gov.sg</h2>
+            <h2>sportsingapore.gov.sg</h2>
           </div>
         </GridContainer>
       </div>
@@ -26,7 +26,10 @@ const SectionSiteDetails: FC<RouteComponentProps> = ({ history }) => {
           <div className="flex items-center justify-between py-4">
             <div>
               <p>
-                URL: <a href="https://www.hdb.gov.sg">https://www.hdb.gov.sg</a>
+                URL:{" "}
+                <a href="https://www.sportsingapore.gov.sg">
+                  https://www.sportsingapore.gov.sg
+                </a>
               </p>
               <p>
                 Scan Status: <span className="text-green-700">Completed</span>{" "}
