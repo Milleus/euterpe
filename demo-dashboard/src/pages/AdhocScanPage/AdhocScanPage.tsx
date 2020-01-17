@@ -17,15 +17,15 @@ const AdhocScanPage: FC<RouteComponentProps> = ({ history }) => {
 
       <div className="flex items-center justify-center p-20">
         <div className="w-auto mr-4">
-          <img src={bicepMan} alt="bicep_man" />
+          <img src={bicepMan} alt="bicep_man" style={{ maxHeight: "14rem" }} />
         </div>
         <div className="w-1/3 flex flex-col justify-center">
-          <h1>
+          <h1 className="text-4xl">
             Fix Your Links
             <br />
             Before Your Ties Go Unlink
           </h1>
-          <p className="text-gray-700 leading-tight mb-4">
+          <p className="text-gray-600 leading-tight mb-4">
             Start discovering broken links to enhance your
             <br />
             user experience today.
