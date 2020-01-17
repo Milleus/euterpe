@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import React, { FC, Suspense, lazy } from "react";
 
 import * as Paths from "./index";
@@ -13,6 +13,7 @@ const AppRouter: FC = () => {
     <BrowserRouter>
       <Suspense fallback={<Spinner isCenter={true} />}>
         <Switch>
+          <Redirect exact={true} path="/" to={Paths.ADHOC_SCAN_PAGE} />
           <Route
             exact={true}
             path={Paths.ADHOC_SCAN_PAGE}
