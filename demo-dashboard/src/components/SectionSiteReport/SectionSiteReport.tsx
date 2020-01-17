@@ -1,10 +1,73 @@
-import React, { FC } from "react";
+import React, { FC } from 'react';
 
-import Button, { ButtonAppearance } from "../../shared-components/Button";
-import Tab from "../../shared-components/Tab";
-import TabItem from "../../shared-components/TabItem";
-import Card from "../../shared-components/Card";
+import Button, { ButtonAppearance } from '../../shared-components/Button';
+import Tab from '../../shared-components/Tab';
+import TabItem from '../../shared-components/TabItem';
+import Table from '../../components/Table';
+import { FilterColumn } from '../../components/Table/Table';
+import SelectFilter from '../../components/Table/SelectFilter';
+import {
+  internalBroken,
+  externalBroken,
+  totalBroken,
+  internalData,
+  externalData,
+  allData,
+} from '../../data/utils';
+import Tooltip from '../../shared-components/Tooltip';
 
+interface RowData {
+  status: number;
+  page_url: string;
+  resolved_url: string;
+  attr_href: string;
+  link_text: string;
+  linkClicks: number;
+}
+
+const columns: Array<FilterColumn<RowData>> = [
+  {
+    Header: 'Result',
+    accessor: 'status',
+    Filter: SelectFilter,
+    filter: 'includes',
+  },
+  {
+    Header: 'URL',
+    Cell: ({ row: { original } }) => (
+      <div>
+        <a href={original.resolved_url}>{original.attr_href}</a>
+        <br />
+        <span className="text-xs">
+          Linked from <a href={original.page_url}>{original.page_url}</a>
+        </span>{' '}
+      </div>
+    ),
+  },
+  {
+    Header: () => (
+      <div className="flex">
+        <div>Anchor Text</div>
+        <Tooltip iconClassName="fa fa-info-circle text-checker-primary">
+          Refers to visible clickable text in a hyper link
+        </Tooltip>
+      </div>
+    ),
+    accessor: 'link_text',
+    Cell: ({ row: { original } }) => original.link_text || '-',
+  },
+  {
+    Header: () => (
+      <div className="flex">
+        <div>Clicks</div>
+        <Tooltip iconClassName="fa fa-info-circle text-checker-primary">
+          Number of clicks on the link, populated from ???
+        </Tooltip>
+      </div>
+    ),
+    accessor: 'clicks',
+  },
+];
 const SectionSiteReport: FC<{}> = () => {
   return (
     <div className="my-8">
@@ -17,29 +80,14 @@ const SectionSiteReport: FC<{}> = () => {
       </div>
 
       <Tab initialIndex={0}>
-        <TabItem title="Internal" value={28}>
-          <Card>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
-            voluptatem ullam voluptates voluptas recusandae a inventore incidunt
-            excepturi totam animi molestiae sapiente asperiores expedita
-            molestias, soluta dolores, doloremque eos dicta.
-          </Card>
+        <TabItem title="Internal" value={internalBroken}>
+          <Table columns={columns} data={internalData} />
         </TabItem>
-        <TabItem title="External" value={8}>
-          <Card>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste
-            deleniti officia nobis magni. Dolore repellendus enim earum, tempore
-            repellat ducimus accusamus mollitia temporibus blanditiis nemo,
-            quasi molestiae voluptate porro eos.
-          </Card>
+        <TabItem title="External" value={externalBroken}>
+          <Table columns={columns} data={externalData} />
         </TabItem>
-        <TabItem title="All" value={36}>
-          <Card>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
-            voluptatem ullam voluptates voluptas recusandae a inventore incidunt
-            excepturi totam animi molestiae sapiente asperiores expedita
-            molestias, soluta dolores, doloremque eos dicta.
-          </Card>
+        <TabItem title="All" value={totalBroken}>
+          <Table columns={columns} data={allData} />
         </TabItem>
       </Tab>
     </div>

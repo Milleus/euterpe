@@ -1,20 +1,27 @@
-import React, { FC } from "react";
+import React, { FC } from 'react';
 
-import ChartDoughnut from "../../shared-components/ChartDoughnut";
-import Tooltip from "../../shared-components/Tooltip";
-import Card from "../../shared-components/Card";
+import ChartDoughnut from '../../shared-components/ChartDoughnut';
+import Tooltip from '../../shared-components/Tooltip';
+import Card from '../../shared-components/Card';
+import stats from '../../data/sportsingapore-stats.json';
+import {
+  internalBroken,
+  working,
+  totalBroken,
+  externalBroken,
+} from '../../data/utils';
 
 const SectionSiteOverview: FC<{}> = () => {
   const chartData = {
-    labels: ["Working Links", "Internal Broken Links", "External Broken Links"],
+    labels: ['Working Links', 'Internal Broken Links', 'External Broken Links'],
     datasets: [
       {
-        data: [400, 8, 28], // Specify the data values array
-        backgroundColor: ["#4860af", "#d50d0d", "#800908"],
-        borderColor: ["#4860af", "#d50d0d", "#800908"],
-        borderWidth: 1
-      }
-    ]
+        data: [working - totalBroken, externalBroken, internalBroken], // Specify the data values array
+        backgroundColor: ['#4860af', '#d50d0d', '#800908'],
+        borderColor: ['#4860af', '#d50d0d', '#800908'],
+        borderWidth: 1,
+      },
+    ],
   };
 
   return (
@@ -33,7 +40,7 @@ const SectionSiteOverview: FC<{}> = () => {
         <div className="w-full sm:1/2 px-4 flex flex-col">
           <Card className="flex-grow mb-4">
             <h3 className="mb-4 ">Total Links</h3>
-            <h1>4,620</h1>
+            <h1>{stats['downloader/response_count']}</h1>
           </Card>
 
           <Card className="flex-grow mt-4">
@@ -46,8 +53,10 @@ const SectionSiteOverview: FC<{}> = () => {
                 another page on another website)
               </Tooltip>
             </h3>
-            <h1 className="mb-4 text-checker-secondary">36</h1>
-            <p>Internal: 28 External: 8</p>
+            <h1 className="mb-4 text-checker-secondary">{totalBroken}</h1>
+            <p>
+              Internal: {internalBroken} External: {externalBroken}
+            </p>
           </Card>
         </div>
       </div>
