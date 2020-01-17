@@ -1,20 +1,20 @@
-import React, { FC } from 'react';
+import React, { FC } from "react";
 
-import Button, { ButtonAppearance } from '../../shared-components/Button';
-import Tab from '../../shared-components/Tab';
-import TabItem from '../../shared-components/TabItem';
-import Table from '../../components/Table';
-import { FilterColumn } from '../../components/Table/Table';
-import SelectFilter from '../../components/Table/SelectFilter';
+import Button, { ButtonAppearance } from "../../shared-components/Button";
+import Tab from "../../shared-components/Tab";
+import TabItem from "../../shared-components/TabItem";
+import Table from "../../shared-components/Table";
+import { FilterColumn } from "../../shared-components/Table/Table";
+import SelectFilter from "../../shared-components/Table/SelectFilter";
 import {
   internalBroken,
   externalBroken,
   totalBroken,
   internalData,
   externalData,
-  allData,
-} from '../../data/utils';
-import Tooltip from '../../shared-components/Tooltip';
+  allData
+} from "../../data/utils";
+import Tooltip from "../../shared-components/Tooltip";
 
 interface RowData {
   status: number;
@@ -27,22 +27,22 @@ interface RowData {
 
 const columns: Array<FilterColumn<RowData>> = [
   {
-    Header: 'Result',
-    accessor: 'status',
+    Header: "Result",
+    accessor: "status",
     Filter: SelectFilter,
-    filter: 'includes',
+    filter: "includes"
   },
   {
-    Header: 'URL',
+    Header: "URL",
     Cell: ({ row: { original } }) => (
       <div>
         <a href={original.resolved_url}>{original.attr_href}</a>
         <br />
         <span className="text-xs">
           Linked from <a href={original.page_url}>{original.page_url}</a>
-        </span>{' '}
+        </span>{" "}
       </div>
-    ),
+    )
   },
   {
     Header: () => (
@@ -53,8 +53,8 @@ const columns: Array<FilterColumn<RowData>> = [
         </Tooltip>
       </div>
     ),
-    accessor: 'link_text',
-    Cell: ({ row: { original } }) => original.link_text || '-',
+    accessor: "link_text",
+    Cell: ({ row: { original } }) => original.link_text || "-"
   },
   {
     Header: () => (
@@ -65,9 +65,10 @@ const columns: Array<FilterColumn<RowData>> = [
         </Tooltip>
       </div>
     ),
-    accessor: 'clicks',
-  },
+    accessor: "clicks"
+  }
 ];
+
 const SectionSiteReport: FC<{}> = () => {
   return (
     <div className="my-8">

@@ -1,7 +1,11 @@
-import React, { FC } from 'react';
+import React, { FC } from "react";
 
-const SelectFilter: FC<any> = ({
-  column: { filterValue, setFilter, preFilteredRows, id },
+interface Props {
+  column: any;
+}
+
+const SelectFilter: FC<Props> = ({
+  column: { filterValue, setFilter, preFilteredRows, id }
 }) => {
   // Calculate the options for filtering
   // using the preFilteredRows
@@ -10,6 +14,7 @@ const SelectFilter: FC<any> = ({
     preFilteredRows.forEach((row: any) => {
       options.add(row.values[id]);
     });
+
     return [...options.values()];
   }, [id, preFilteredRows]);
 
@@ -20,7 +25,8 @@ const SelectFilter: FC<any> = ({
       value={filterValue}
       onChange={e => {
         setFilter(e.target.value || undefined);
-      }}>
+      }}
+    >
       <option value="">All</option>
       {options.map((option, i) => (
         <option key={i} value={option}>
