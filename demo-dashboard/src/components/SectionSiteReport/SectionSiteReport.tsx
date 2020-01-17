@@ -40,13 +40,19 @@ const columns: Array<FilterColumn<RowData>> = [
           href={original.resolved_url}
           target="_blank"
           rel="noopener noreferrer"
+          className="break-all"
         >
           {original.attr_href}
         </a>
         <br />
         <span className="text-xs">
           Linked from{" "}
-          <a href={original.page_url} target="_blank" rel="noopener noreferrer">
+          <a
+            href={original.page_url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="break-all"
+          >
             {original.page_url}
           </a>
         </span>{" "}
