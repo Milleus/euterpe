@@ -40,7 +40,7 @@ const SectionSiteOverview: FC<{}> = () => {
         <div className="w-full sm:1/2 px-4 flex flex-col">
           <Card className="flex-grow mb-4">
             <h3 className="mb-4 ">Total Links</h3>
-            <h1>{stats["downloader/response_count"]}</h1>
+            <h1>{stats["downloader/request_count"]}</h1>
           </Card>
 
           <Card className="flex-grow mt-4">

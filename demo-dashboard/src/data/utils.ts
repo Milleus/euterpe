@@ -24,7 +24,7 @@ const BROKEN_STATUS = [
   "TimeoutError"
 ];
 
-export const working = stats["downloader/response_count"];
+export const working = stats["downloader/request_count"];
 
 export const allData = data.filter(row => BROKEN_STATUS.includes(row.status));
 
