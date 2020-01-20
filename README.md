@@ -56,13 +56,12 @@ Go into demo-dashboard folder and run either of these commands:
 ## To Do
 
 1. ~~Map data with clicks data.~~
-2. Map data with page views data.
-3. Allow input of website URL (currently hardcoded).
-4. Allow checking of img src links.
-5. Allow checking of script source links, css stylesheet links, favicon, etc?
-6. Allow customisable settings for download timeout, DNS timeout, number of retries, etc.
-7. Improve error handling.
-8. Extract crawler statistics data (already exists but only in console).
+2. Allow input of website URL (currently hardcoded).
+3. Allow checking of img src links.
+4. Allow checking of script source links, css stylesheet links, favicon, etc?
+5. Allow customisable settings for download timeout, DNS timeout, number of retries, etc.
+6. Improve error handling.
+7. Extract crawler statistics data (already exists but only in console).
 
 ## Credits
 
