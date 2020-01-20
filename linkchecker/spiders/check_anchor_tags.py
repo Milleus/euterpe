@@ -8,8 +8,8 @@ from twisted.internet.error import TimeoutError
 
 class CheckAnchorTagsSpider(scrapy.Spider):
     name = 'check_anchor_tags'
-    domain = 'hdb.gov.sg'
-    start_urls = ['https://www.hdb.gov.sg/cs/infoweb/homepage']
+    domain = 'psd.gov.sg'
+    start_urls = ['https://www.psd.gov.sg/']
     handle_httpstatus_list = [400,403,404,410,500,502]
 
     def parse(self, response):

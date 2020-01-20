@@ -1,0 +1,1678 @@
+[
+  {
+    "status": "DNSLookupError",
+    "attr_href": "http://www.ecitizen.gov.sg/",
+    "link_text": "eCitizen",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": "_blank",
+    "page_url": "https://www.psd.gov.sg/useful-links"
+  },
+  {
+    "status": "DNSLookupError",
+    "attr_href": "https://www.publicserviceweek.gov.sg/",
+    "link_text": "www.publicserviceweek.gov.sg",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": "_blank",
+    "page_url": "https://www.psd.gov.sg/press-room/press-releases/transformation-starts-with-an-idea---public-service-week-2019"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/press-room/parliamentary-replies/written-reply-to-parliamentary-question-on-review-of-salary-structure-in-the-civil-service",
+    "link_text": "Written Reply to Parliamentary Question on review of salary structure in the Civil Service",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/press-room"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/press-room/parliamentary-replies/written-reply-to-parliamentary-question-on-charging-unions-for-use-of-office-space",
+    "link_text": "Written Reply to Parliamentary Question on charging unions for use of office space",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/press-room"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/press-room/parliamentary-replies/written-reply-to-parliamentary-question-on-the-compensation-for-degree-and-non-degree-holders",
+    "link_text": "Written Reply to Parliamentary Question on the compensation for degree and non-degree holders",
+    "attr_class": null,
+    "attr_id": "ctl00_PlaceholderMainRight_C001_FtParliamentaryRepliesListing_RlvParliamentaryReplies_ctrl9_HypTitle",
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/press-room/parliamentary-replies"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/work-better/instruction-manual-0218",
+    "link_text": "Instruction Manual: Social Innovation Through Technology",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/work-better/instruction-manual-5g-and-mobile-connectivity"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/people/letters/luke-goh-drawing-strength-from-values",
+    "link_text": null,
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/people/letters/lim-soo-hoon-making-an-impact-at-work-reframed"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/people/profile/for-the-love-of-volunteering",
+    "link_text": null,
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/people/cuppa/life-is-more-complicated-than-black-and-white"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "https://www.workwellleaders.org",
+    "link_text": "Workwell Leaders Workgroup",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/work-better/ask-a-pro-hush-tea-bar-anthea-ong-workplace-wellness"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/lifestyle/out-of-office/places-worth-staycationing-for",
+    "link_text": "Places worth stay(cation)ing for",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "DNSLookupError",
+    "attr_href": "http://bumbudesasg.com",
+    "link_text": "bumbudesasg.com",
+    "attr_class": "",
+    "attr_id": null,
+    "attr_target": "_blank",
+    "page_url": "https://www.psd.gov.sg/challenge/lifestyle/out-of-office/8-best-set-lunches-under-$10"
+  },
+  {
+    "status": "DNSLookupError",
+    "attr_href": "http://www.donutfactory.com.sg",
+    "link_text": "www.donutfactory.com.sg",
+    "attr_class": "",
+    "attr_id": null,
+    "attr_target": "_blank",
+    "page_url": "https://www.psd.gov.sg/challenge/lifestyle/out-of-office/8-best-set-lunches-under-$10"
+  },
+  {
+    "status": 404,
+    "link_text": "bit.ly/ura_portal",
+    "attr_href": "http://bit.ly/ura_portal",
+    "is_internal": false,
+    "attr_class": null,
+    "attr_target": "_blank",
+    "resolved_url": "https://www.ura.gov.sg/conservationportal/consmap.html",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/lifestyle/out-of-office/behind-our-famous-architecture"
+  },
+  {
+    "status": "DNSLookupError",
+    "attr_href": "http://www.wws.com.hk/",
+    "link_text": "www.wws.com.hk",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": "_blank",
+    "page_url": "https://www.psd.gov.sg/challenge/lifestyle/out-of-office/serving-up-a-national-obsession-one-on-the-bund"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "?module=people-article",
+    "link_text": "People Article",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": "_blank",
+    "page_url": "https://www.psd.gov.sg/challenge/rss"
+  },
+  {
+    "status": "DNSLookupError",
+    "attr_href": "http://kae-hana.com/",
+    "link_text": "www.kae-hana.com",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": "_blank",
+    "page_url": "https://www.psd.gov.sg/challenge/lifestyle/out-of-office/let-s-play-dress-up"
+  },
+  {
+    "status": 404,
+    "link_text": "bit.ly/war_trails",
+    "attr_href": "http://bit.ly/war_trails",
+    "is_internal": false,
+    "attr_class": null,
+    "attr_target": "_blank",
+    "resolved_url": "http://www.journeys.com.sg/singaporewalks/tours.asp",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/lifestyle/out-of-office/coasting-changi"
+  },
+  {
+    "status": "DNSLookupError",
+    "attr_href": "http://www.forewordlabels.com/",
+    "link_text": "www.forewordlabels.com",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": "_blank",
+    "page_url": "https://www.psd.gov.sg/challenge/lifestyle/out-of-office/let-s-play-dress-up"
+  },
+  {
+    "status": "DNSLookupError",
+    "attr_href": "http://lionearl.com/",
+    "link_text": "www.lionearl.com",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/lifestyle/out-of-office/let-s-play-dress-up"
+  },
+  {
+    "status": 404,
+    "link_text": "www.20twothree.com",
+    "attr_href": "http://20twothree.com/2012/",
+    "is_internal": false,
+    "attr_class": null,
+    "attr_target": "_blank",
+    "resolved_url": "http://20twothree.com/2012/",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/lifestyle/out-of-office/let-s-play-dress-up"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/lifestyle/out-of-office/sweet-confections-in-the-heartlands",
+    "link_text": "Sweet Confections in the Heartlands",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": 500,
+    "link_text": "Storywise",
+    "attr_href": "http://storywise.com.sg",
+    "is_internal": false,
+    "attr_class": "",
+    "attr_target": "",
+    "resolved_url": "http://storywise.com.sg/storytelling/",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/lifestyle/out-of-office/the-perks-of-not-being-a-wallflower"
+  },
+  {
+    "status": "DNSLookupError",
+    "attr_href": "http://nock.sg/poundfit",
+    "link_text": "nock.sg/poundfit",
+    "attr_class": "",
+    "attr_id": null,
+    "attr_target": "_blank",
+    "page_url": "https://www.psd.gov.sg/challenge/lifestyle/out-of-office/shock-your-system"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/lifestyle/out-of-office/getaway-places",
+    "link_text": "Getaway Places",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": 404,
+    "link_text": "Timbre @ Gillman",
+    "attr_href": "https://timbregroup.asia/timbresg/timbre-gillman/",
+    "is_internal": false,
+    "attr_class": null,
+    "attr_target": "_blank",
+    "resolved_url": "https://timbregroup.asia/timbresg/timbre-gillman/",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/lifestyle/out-of-office/from-colonial-to-contemporary-fun"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "https://www.psd.gov.sg/docs/default-source/challenge/10-things-you-should-read-before-joining-the-public-service-v3-0-compressed.pdf",
+    "link_text": null,
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": "_blank",
+    "page_url": "https://www.psd.gov.sg/challenge/thank-you-10-things-to-read-career"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/lifestyle/out-of-office/theyve-got-the-groove",
+    "link_text": "They've Got the Groove",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "DNSLookupError",
+    "attr_href": "https://www.hometeam.sg/",
+    "link_text": "Hometeam.sg",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/heartofpublicservice/our-people/"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/lifestyle/alter-ego/sparking-smiles",
+    "link_text": "Sparking Smiles",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/lifestyle/alter-ego/an-officer-and-a-triathlete-she-keeps-an-eye-on-the-goal",
+    "link_text": "An Officer And A Triathlete: She Keeps An Eye On The Goal",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/lifestyle/humour/singapore's-next-top-public-service-mascot",
+    "link_text": "Singapore's Next Top Public Service Mascot",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/lifestyle/humour/the-civil-servants-picnic",
+    "link_text": "The Civil Servants Picnic",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "DNSLookupError",
+    "attr_href": "http://www.raedi.sg/",
+    "link_text": "national AED registry",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": "_blank",
+    "page_url": "https://www.psd.gov.sg/challenge/people/letters/dreaming-in-broad-daylight"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/lifestyle/humour/makanan-d-singapour",
+    "link_text": "Makanan D'Singapour",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": 404,
+    "link_text": "http://www.nas.gov.sg/archivesonline/",
+    "attr_href": "\u201d",
+    "is_internal": true,
+    "attr_class": null,
+    "attr_target": null,
+    "resolved_url": "https://www.psd.gov.sg/heartofpublicservice/our-institutions/%E2%80%9D",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/heartofpublicservice/our-institutions/"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/lifestyle/humour/head-in-the-clouds",
+    "link_text": "Head In The Clouds",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/people/letters/design-ambassador-agnes-kwek-s-tips-to-prevent-burning-out-at-work",
+    "link_text": "Design Ambassador Agnes Kwek\u2019s Tips To Prevent Burning Out At Work",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/people/letters/be-sensitive-but-confident-in-navigating-diversity",
+    "link_text": "Be Sensitive But Confident In Navigating Diversity",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/people/letters/be-patient-and-be-not-afraid-by-peter-ong",
+    "link_text": "Be Patient and Be Not Afraid",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/people/letters/dare-to-disrupt-by-professor-lui-pao-chuen",
+    "link_text": "Dare To Disrupt by Professor Lui Pao Chuen",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/people/letters/a-mission-made-possible-law-song-seng",
+    "link_text": "A Mission Made Possible, Law Song Seng",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/people/unsung-heroes/the-hidden-spark-in-our-lives",
+    "link_text": "The Hidden Spark in Our Lives",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/people/unsung-heroes/detectives-in-disguise",
+    "link_text": "Detectives in Disguise",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/people/nofilter/protectors-of-thrill-seekers",
+    "link_text": "Protectors Of Thrill Seekers: Amusement Ride Safety Officers",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/people/nofilter/tunnel-vision",
+    "link_text": "Tunnel Vision",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/people/nofilter/on-the-job-with-a-tree-doctor",
+    "link_text": "On The Job With A Tree Doctor",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/people/cuppa/the-truth-comes-out-when-people-feel-safe-to-fail",
+    "link_text": "\"The Truth Comes Out When People Feel Safe To Fail\"",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/people/cuppa/dont-forget-the-people",
+    "link_text": "\"Don't Forget the People\"",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/people/cuppa/change-is-difficult-but-inevitable-chan-heng-kee",
+    "link_text": "\"Change Is Difficult But Inevitable\"",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": 403,
+    "link_text": "Phei Sunn's adventures and setbacks in climbing",
+    "attr_href": "https://www.todayonline.com/commentary/singaporeans-should-be-chilli-padi-navigating-challenges",
+    "is_internal": false,
+    "attr_class": null,
+    "attr_target": "_blank",
+    "resolved_url": "https://www.todayonline.com/commentary/singaporeans-should-be-chilli-padi-navigating-challenges",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/people/profile/going-the-distance-how-to-stay-the-course-at-work"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/people/cuppa/i-believe-in-over-communication",
+    "link_text": "\"I Believe In Over-Communication\"",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "DNSLookupError",
+    "attr_href": "http://heartland.hdb.gov.sg/",
+    "link_text": "Remaking Our Heartland",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": "_blank",
+    "page_url": "https://www.psd.gov.sg/challenge/people/profile/unearthing-hidden-gems-behind-the-scenes-of-nhb-heritage-trails"
+  },
+  {
+    "status": 404,
+    "link_text": "Engineer What's Next",
+    "attr_href": "http://engineerwhatsnext.sg/home",
+    "is_internal": false,
+    "attr_class": "",
+    "attr_target": "_blank",
+    "resolved_url": "https://www.engineerwhatsnext.sg/home",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/people/profile/man-with-a-plan"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/people/cuppa/teo-chee-hean-a-man-of-good-ideas",
+    "link_text": "Teo Chee Hean: A Man of Good Ideas",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/people/profile/redesigning-a-top-design-award",
+    "link_text": "Redesigning A Top Design Award",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/people/profile/data-at-her-fingertips",
+    "link_text": "Data at Her Fingertips",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/people/profile/alpha-lifesavers",
+    "link_text": "Alpha Lifesavers",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/people/profile/people-and-purpose",
+    "link_text": "People and Purpose",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/people/profile/running-the-digital-marathon",
+    "link_text": "Running the Digital Marathon",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/people/profile/hearmeout-chan-hui-min-mindef",
+    "link_text": "#hearmeout: Chan Hui Min, MINDEF",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": 404,
+    "link_text": "Read! Singapore",
+    "attr_href": "http://www.nlb.gov.sg/readsingapore/",
+    "is_internal": false,
+    "attr_class": null,
+    "attr_target": "_blank",
+    "resolved_url": "https://www.nlb.gov.sg/readsingapore/",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/people/profile/never-without-a-book-long-time-librarian-and-reading-advocate"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/people/profile/sky-high-service-for-a-great-way-to-fly",
+    "link_text": null,
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/people"
+  },
+  {
+    "status": "DNSLookupError",
+    "attr_href": "http://bit.ly/MOFspor2014",
+    "link_text": "bit.ly/MOFspor2014",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": "_blank",
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/infographic/why-your-work-matters"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/people/profile/what-dinosaurs-and-kiam-chye-looking-reefs-have-in-common",
+    "link_text": "What Dinosaurs and kiam chye-looking Reefs have in Common",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": 404,
+    "link_text": "bit.ly/CEAresources",
+    "attr_href": "http://bit.ly/CEAresources",
+    "is_internal": false,
+    "attr_class": null,
+    "attr_target": "_blank",
+    "resolved_url": "https://www.cea.gov.sg/cea/content/consumer/consumerresources.html",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/infographic/7-ways-to-tell-if-your-real-estate-person-is-for-real"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/people/profile/hearmeout-leonard-chen-public-service-division",
+    "link_text": "#hearmeout: Leonard Chen, Public Service Division",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": 403,
+    "link_text": null,
+    "attr_href": "https://www.psychologytoday.com/intl/blog/intersubjective/201811/us-versus-them-or-not-our-kind",
+    "is_internal": false,
+    "attr_class": null,
+    "attr_target": "_blank",
+    "resolved_url": "https://www.psychologytoday.com/intl/blog/intersubjective/201811/us-versus-them-or-not-our-kind",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/big-idea/why-it-s-normal-to-jump-to-conclusions-and-how-to-beat-that"
+  },
+  {
+    "status": 404,
+    "link_text": null,
+    "attr_href": "pst.gov.sg",
+    "is_internal": true,
+    "attr_class": null,
+    "attr_target": "_blank",
+    "resolved_url": "https://www.psd.gov.sg/challenge/people/profile/pst.gov.sg",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/people/profile/all-fired-up-for-volunteering"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/infographic/world-s-oldest-corruption-fighter",
+    "link_text": "World's Oldest Corruption Fighter",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/infographic/one-der-map",
+    "link_text": "One-Der Map",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/infographic/bus-planning-an-infographic",
+    "link_text": "Bus Planning: An Infographic",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/big-idea/why-small-talk-matters",
+    "link_text": "Why Small Talk Matters",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": 404,
+    "link_text": "e-learning courses from SGSecure",
+    "attr_href": "https://www.sgsecure.sg/e-learning",
+    "is_internal": false,
+    "attr_class": null,
+    "attr_target": "_blank",
+    "resolved_url": "https://www.sgsecure.sg/e-learning",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/feature/spor-2018-public-sector-developments-you-might-have-missed"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/feature/tweets-and-tweaks-creating-space-for-civil-dialogue-online",
+    "link_text": "Tweets And Tweaks \u2013 Creating Space For Civil Dialogue Online",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/feature/asean-chairmanship-behind-the-scenes-with-the-mfa",
+    "link_text": "ASEAN Chairmanship: Behind The Scenes With The MFA",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "DNSLookupError",
+    "attr_href": "https://www.hometeam.sg/article.aspx?news_sid=20151127hPLcjLVHyXod",
+    "link_text": "SMRT-Temasek Cares AED on Wheels",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/feature/a-shot-to-the-heart"
+  },
+  {
+    "status": "DNSLookupError",
+    "attr_href": "https://www.raedi.sg/",
+    "link_text": "R-AEDi",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/feature/a-shot-to-the-heart"
+  },
+  {
+    "status": 404,
+    "link_text": "OneService",
+    "attr_href": "http://www.mnd.gov.sg/mso/mobile-about.htm",
+    "is_internal": false,
+    "attr_class": null,
+    "attr_target": null,
+    "resolved_url": "https://www.mnd.gov.sg/mso/mobile-about.htm",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/feature/the-digital-movement"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/feature/are-you-corrupt-or-cor-right",
+    "link_text": "Are You Corrupt Or Cor-right?",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "DNSLookupError",
+    "attr_href": "https://portal.imda.gov.sg/Sub/NIA/Current-Winners/Most-Innovative-Use-of-Infocomm-Technology-Public-Sector/Land-Transport-Authority",
+    "link_text": "Project Land Transport Real-time Info@SG (POLARis)",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": "",
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/feature/on-the-go"
+  },
+  {
+    "status": 403,
+    "link_text": "media",
+    "attr_href": "http://www.straitstimes.com/singapore/225m-in-skillsfuture-credit-tapped",
+    "is_internal": false,
+    "attr_class": null,
+    "attr_target": null,
+    "resolved_url": "https://www.straitstimes.com/singapore/225m-in-skillsfuture-credit-tapped",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/feature/the-future-of-work-(part-3)"
+  },
+  {
+    "status": 404,
+    "link_text": "Crescent Hall and Pioneer Hall",
+    "attr_href": "http://www.rsp.com.sg/project/show?id=168",
+    "is_internal": false,
+    "attr_class": null,
+    "attr_target": null,
+    "resolved_url": "http://www.rsp.com.sg/project/show?id=168",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/feature/the-future-of-work-(part-3)"
+  },
+  {
+    "status": "DNSLookupError",
+    "attr_href": "https://ideas.ecitizen.gov.sg/",
+    "link_text": "eCitizens Ideas!",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/feature/catalysing-change-in-the-public-service"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/feature/from-maps-to-metaphors-(part-1)",
+    "link_text": "From Maps to Metaphors (Part 1)",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/feature/a-transformation-in-service",
+    "link_text": "A Transformation in Service",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/feature/steadfast-in-duty",
+    "link_text": "Steadfast in Duty",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/feature/the-future-of-work-(part-2)",
+    "link_text": "The Future of Work (Part 2)",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/feature/a-heart-for-residents",
+    "link_text": "A Heart for Residents",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/feature/plugging-in-to-youth-power",
+    "link_text": "Plugging in to youth power",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/feature/cutting-down-paperwork-and-simplifying-processes-for-citizens",
+    "link_text": "Cutting Down Paperwork and Simplifying Processes for Citizens",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": 404,
+    "link_text": "http://www.thefarmstore.sg/",
+    "attr_href": "http://www.farm.sg/store/",
+    "is_internal": false,
+    "attr_class": null,
+    "attr_target": "_blank",
+    "resolved_url": "https://www.farm.sg/store/",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/feature/flights-of-fancy"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/feature/step-one-done-step-two-make-it-better",
+    "link_text": "Step One, Done. Step Two, Make It Better",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/feature/baba-bling-in-paris",
+    "link_text": "Baba Bling in Paris",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/feature/heart-of-innovation",
+    "link_text": "Heart of Innovation",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/feature/how-he-poached-gordon-ramsays-heart",
+    "link_text": "How He Poached Gordon Ramsay's Heart",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": 404,
+    "link_text": "Don't Think Out of The Box - Enlarge It!",
+    "attr_href": "https://www.psd.gov.sg/challenge/ideas/big-idea/dont-think-out-of-the-box-enlarge-it!",
+    "is_internal": true,
+    "attr_class": null,
+    "attr_target": null,
+    "resolved_url": "https://www.psd.gov.sg/challenge/ideas/big-idea/dont-think-out-of-the-box-enlarge-it!",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/big-idea/is-keeping-goals-to-yourself-the-secret-to-success"
+  },
+  {
+    "status": "DNSLookupError",
+    "attr_href": "http://www.screensingapore.sg/",
+    "link_text": "www.asiatvforum.com/screen-singapore/",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": "_blank",
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/feature/from-grunt-work-to-glamour-walk"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/feature/right-clicks",
+    "link_text": "Right Clicks",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": 404,
+    "link_text": "www. malmo.se/sustainablecity",
+    "attr_href": "http://www.malmo.se/English/Sustainable-City-Development.html",
+    "is_internal": false,
+    "attr_class": null,
+    "attr_target": "_blank",
+    "resolved_url": "https://malmo.se/English/Sustainable-City-Development.html",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/feature/lessons-from-malmo's-green-transormation"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/feature/how-the-ipad-and-technology-can-help-you-work-better",
+    "link_text": "How The iPad And Technology Can Help You Work Better",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/feature/hedging-our-future-on-green",
+    "link_text": "Hedging Our Future On Green",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/feature/singapore-can-think-a-bit-more-crazily",
+    "link_text": "\u201cSingapore Can Think a Bit More Crazily\u201d",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/feature/changing-lives-with-football",
+    "link_text": "Changing Lives With Football",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": 404,
+    "link_text": "Future-ready",
+    "attr_href": "https://www.psd.gov.sg/blog/article/future-ready",
+    "is_internal": true,
+    "attr_class": null,
+    "attr_target": "",
+    "resolved_url": "https://www.psd.gov.sg/blog/article/future-ready",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/feature/catalysing-change-in-the-public-service"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/feature/lessons-from-a-park-ranger",
+    "link_text": "Lessons from a Park Ranger",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": 403,
+    "link_text": "\u201cRegardless of Religion\u201d",
+    "attr_href": "https://www.channelnewsasia.com/news/video-on-demand/regardlessofreligion",
+    "is_internal": false,
+    "attr_class": null,
+    "attr_target": "_blank",
+    "resolved_url": "https://www.channelnewsasia.com/news/video-on-demand/regardlessofreligion",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/feature/let-s-talk-about-religion"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/feature/the-illuminators",
+    "link_text": "The Illuminators",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/feature/from-civil-servant-to-president",
+    "link_text": "From Civil Servant To President",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "DNSLookupError",
+    "attr_href": "http://www.usksgvolumes.com",
+    "link_text": "www.usksgvolumes.com",
+    "attr_class": "",
+    "attr_id": null,
+    "attr_target": "",
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/feature/bringing-buzz-to-bras-basah-bugis"
+  },
+  {
+    "status": 404,
+    "link_text": null,
+    "attr_href": "http://itunes.apple.com/us/app/walk-singapore-bras-basah./id485249201?mt=8",
+    "is_internal": false,
+    "attr_class": null,
+    "attr_target": "_blank",
+    "resolved_url": "https://apps.apple.com/us/app/walk-singapore-bras-basah/id485249201",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/feature/bringing-buzz-to-bras-basah-bugis"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/feature/odd-jobs-even-better!",
+    "link_text": "\u201cOdd\u201d Jobs? Even Better!",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": 404,
+    "link_text": "myResponder mobile app",
+    "attr_href": "http://www.scdf.gov.sg/content/scdf_internet/en/community-and-volunteers/mobile_phone_technology.html",
+    "is_internal": false,
+    "attr_class": null,
+    "attr_target": "_blank",
+    "resolved_url": "https://www.scdf.gov.sg/content/scdf_internet/en/community-and-volunteers/mobile_phone_technology.html",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/feature/fighting-fires-growing-ideas-scdf's-culture-of-innovation"
+  },
+  {
+    "status": 404,
+    "link_text": "traffic disruptions",
+    "attr_href": "http://bit.ly/trainstrain",
+    "is_internal": false,
+    "attr_class": null,
+    "attr_target": "_blank",
+    "resolved_url": "https://research.a-star.edu.sg/research/7104",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/feature/complexity-when-1-2-is-more-than-3"
+  },
+  {
+    "status": "DNSLookupError",
+    "attr_href": "http://bit.ly/challengecube",
+    "link_text": "Cube",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/feature/red-hot-reads-a-retrospective-on-earlier-versions-of-challenge"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/feature/maid-to-order-policies",
+    "link_text": "Maid-to-Order Policies",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": 400,
+    "link_text": null,
+    "attr_href": "http://www.tiltworld.com/",
+    "is_internal": false,
+    "attr_class": null,
+    "attr_target": "_blank",
+    "resolved_url": "http://www.tiltworld.com/",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/feature/game-changers-improving-public-services-with-play"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/feature/oh-boy!",
+    "link_text": "Oh Boy!",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": 404,
+    "link_text": "OneService",
+    "attr_href": "http://www.mnd.gov.sg/mso/mobile-installation.htm",
+    "is_internal": false,
+    "attr_class": null,
+    "attr_target": "_blank",
+    "resolved_url": "https://www.mnd.gov.sg/mso/mobile-installation.htm",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/feature/this-hive's-got-it-working-differently-at-the-government-digital-services"
+  },
+  {
+    "status": "DNSLookupError",
+    "attr_href": "https://www.greencorridor.org/",
+    "link_text": "www.greencorridor.org",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": "_blank",
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/feature/all-aboard-the-public-engagement-train"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/feature/balancing-act-rethinking-roles-for-better-results",
+    "link_text": "Balancing Act: Rethinking Roles For Better Results",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": 404,
+    "link_text": "bit.ly/seenoclay",
+    "attr_href": "http://bit.ly/seenoclay",
+    "is_internal": false,
+    "attr_class": null,
+    "attr_target": "_blank",
+    "resolved_url": "http://www.clay-street.com/seenoclay/default.shtml",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/feature/meaningful-gift-ideas"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/feature/from-the-heart-working-with-the-community-for-the-community",
+    "link_text": "From The Heart: Working With The Community, For The Community",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": 403,
+    "link_text": "Facebook",
+    "attr_href": "http://bit.ly/LTAposts",
+    "is_internal": false,
+    "attr_class": null,
+    "attr_target": "_blank",
+    "resolved_url": "https://www.straitstimes.com/singapore/courts-crime/suspended-lta-officer-caught-fighting-uber-driver-on-camera-arrested-by",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/deep-dive/continuous-candid-camera-how-will-the-ubiquity-of-cameras-affect-public-service"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/feature/integrating-public-consultation-into-public-policy",
+    "link_text": "Integrating Public Consultation into Public Policy",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/feature/working-with-mr-othman-wok",
+    "link_text": "Working With Mr Othman Wok",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/deep-dive/personal-finance-goes-online",
+    "link_text": "Personal Finance Goes Online",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/deep-dive/how-us-china-trade-relations-affect-singapore",
+    "link_text": "How US-China Trade Relations Affect Singapore",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/deep-dive/what-will-it-take-for-singapore-to-go-car-lite",
+    "link_text": "What Will It Take For Singapore to Go 'Car-Lite'?",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": 404,
+    "link_text": "bit.ly/parliament_sports",
+    "attr_href": "http://bit.ly/parliament_sports",
+    "is_internal": false,
+    "attr_class": null,
+    "attr_target": "_blank",
+    "resolved_url": "https://www.mccy.gov.sg/en/news/Parliamentary/2015/Jan/sports-participation-framework.aspx",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/deep-dive/making-sports-a-national-habit"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/deep-dive/blockchain-trust-public-service",
+    "link_text": "In Blockchain We Trust",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "DNSLookupError",
+    "attr_href": "https://cube.gov.sg/Lists/Shared%20Info/DispForm.aspx?ID=549",
+    "link_text": "https://cube.gov.sg/Lists/Shared%20Info/DispForm.aspx?ID=549",
+    "attr_class": "",
+    "attr_id": null,
+    "attr_target": "_blank",
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/deep-dive/are-you-game-for-engagement"
+  },
+  {
+    "status": 403,
+    "link_text": "The Future of Us",
+    "attr_href": "http://www.thefutureofus.sg",
+    "is_internal": false,
+    "attr_class": null,
+    "attr_target": "_blank",
+    "resolved_url": "http://www.thefutureofus.sg",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/deep-dive/say-hello-to-the-internet-of-things"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/deep-dive/how-to-do-first-talk-later",
+    "link_text": "How to \u201cDo First, Talk Later\u201d",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": 403,
+    "link_text": "opposite effect",
+    "attr_href": "http://bit.ly/mmm_inspiration",
+    "is_internal": false,
+    "attr_class": null,
+    "attr_target": "_blank",
+    "resolved_url": "https://www.psychologytoday.com/blog/the-science-willpower/201101/take-down-motivational-poster-it-may-make-you-give-sooner",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/deep-dive/unravelling-the-mysteries-of-motivation"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/deep-dive/policy-making-tip-nudge-not-shove",
+    "link_text": "Policy Making Tip: Nudge, Not Shove",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/deep-dive/beyond-the-gold",
+    "link_text": "Beyond the Gold",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": 403,
+    "link_text": "UpWork",
+    "attr_href": "https://www.upwork.com/",
+    "is_internal": false,
+    "attr_class": null,
+    "attr_target": "_blank",
+    "resolved_url": "https://www.upwork.com/",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/deep-dive/rise-of-the-freelancer"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/deep-dive/go-big-with-data-providing-data-driven-public-services",
+    "link_text": "Go Big With Data: Providing Data-Driven Public Services",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/deep-dive/public-service-are-you-really-lovin-it",
+    "link_text": "Public Service \u2013 Are You Really Lovin' It?",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/your-say/a-new-skill-to-help-you-work-better",
+    "link_text": "A new skill to help you work better",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/your-say/memorable-moments-with-family",
+    "link_text": "Memorable Moments with Family",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "https://www.vanitee.com/",
+    "link_text": "Vanitee",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": "_blank",
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/deep-dive/rise-of-the-freelancer"
+  },
+  {
+    "status": 403,
+    "link_text": "bit.ly/instagransr",
+    "attr_href": "https://www.channelnewsasia.com/news/video-on-demand/dont-forget-me/instagran-10592408",
+    "is_internal": false,
+    "attr_class": null,
+    "attr_target": "_blank",
+    "resolved_url": "https://www.channelnewsasia.com/news/video-on-demand/dont-forget-me/instagran-10592408",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/trends/trending-the-loneliness-issue"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/your-say/a-higher-standard-of-personal-conduct",
+    "link_text": "A Higher Standard Of Personal Conduct",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/docs/default-source/challenge/challenge-nov2012.pdf",
+    "link_text": "Challenge-Nov/Dec 2012 cover story",
+    "attr_class": "",
+    "attr_id": null,
+    "attr_target": "_blank",
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/deep-dive/when-less-is-more"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/your-say/engaging-the-public-gayle-goh-s-reply",
+    "link_text": "Engaging the Public \u2013 Gayle Goh's Reply",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": 404,
+    "link_text": null,
+    "attr_href": "http://bit.ly/foresightglossary",
+    "is_internal": false,
+    "attr_class": "",
+    "attr_target": "_blank",
+    "resolved_url": "https://www.csf.gov.sg/docs/default-source/default-document-library/csf-csc_foresight--a-glossary.pdf",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/trends/trending-0717"
+  },
+  {
+    "status": 404,
+    "link_text": "SurfSafe plug-in",
+    "attr_href": "https://www.getsurfsafe.com",
+    "is_internal": false,
+    "attr_class": null,
+    "attr_target": "_blank",
+    "resolved_url": "https://www.getsurfsafe.com",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/work-better/9-ways-to-verify-online-content-like-a-pro"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/your-say/a-native-species-of-singapore-that-readers-most-identify-with",
+    "link_text": "A Native Species Of Singapore That Readers Most Identify With",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "DNSLookupError",
+    "attr_href": "http://bit.ly/ExCELInnoSpeakers",
+    "link_text": null,
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": "_blank",
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/work-better/three-steps-to-capture-value"
+  },
+  {
+    "status": 404,
+    "link_text": "How to spot a fake government website",
+    "attr_href": "http://bit.ly/fakegovsite",
+    "is_internal": false,
+    "attr_class": null,
+    "attr_target": null,
+    "resolved_url": "https://www.gov.sg/news/content/how-to-spot-a-fake-government-website",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/work-better/get-wired-1116"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/trends/trending-0517",
+    "link_text": "Trending May 2017",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": 404,
+    "link_text": "Post-2015 Development Agenda workshop inSingapore",
+    "attr_href": "http://bit.ly/refPSE",
+    "is_internal": false,
+    "attr_class": null,
+    "attr_target": "_blank",
+    "resolved_url": "http://fromoverhere.net/2015/01/notes-from-singapore-1-public-service-excellence-post-2015/",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/work-better/all-things-digital-0315"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/trends/trending-0117",
+    "link_text": "Trending January 2017",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": 403,
+    "link_text": "bit.ly/babiesg",
+    "attr_href": "http://bit.ly/babiesg",
+    "is_internal": false,
+    "attr_class": null,
+    "attr_target": "_blank",
+    "resolved_url": "http://www.washingtonpost.com/blogs/wonkblog/wp/2014/03/31/in-singapore-citizens-dont-want-babies-or-foreign-workers-either/",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/work-better/all-things-digital-0514"
+  },
+  {
+    "status": 404,
+    "link_text": "bit.ly/sgsongkran",
+    "attr_href": "http://bit.ly/sgsongkran",
+    "is_internal": false,
+    "attr_class": null,
+    "attr_target": "_blank",
+    "resolved_url": "https://www.bangkokpost.com/life/family/401233/stealing-our-songkran",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/work-better/all-things-digital-0514"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/work-better/instruction-manual-all-about-resilience-at-work",
+    "link_text": "Instruction Manual: All About Resilience At Work",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/work-better/hello-boss-are-you-listening",
+    "link_text": "Hello Boss are you Listening?",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/work-better/communicate-better-with-the-left-hand-column-technique",
+    "link_text": "Communicate Better With The Left-Hand Column Technique",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/work-better/its-easier-than-you-think",
+    "link_text": "It's Easier than You Think",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": 404,
+    "link_text": "bit.ly/iFpoems",
+    "attr_href": "http://bit.ly/iFpoems",
+    "is_internal": false,
+    "attr_class": null,
+    "attr_target": "_blank",
+    "resolved_url": "https://apps.apple.com/gb/app/if-poems/id474446630",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/work-better/all-things-digital-0913"
+  },
+  {
+    "status": 404,
+    "link_text": "iOS",
+    "attr_href": "https://itunes.apple.com/us/app/do-camera-by-ifttt/id905998167?mt=8",
+    "is_internal": false,
+    "attr_class": null,
+    "attr_target": "_blank",
+    "resolved_url": "https://apps.apple.com/us/app/do-camera-by-ifttt/id905998167",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/work-better/all-things-digital-0116"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "http://digitalbullpen.usf.edu/digitalbullpen/?p=54718",
+    "link_text": "Amnesty International\u2019s YouTube Dataviewer",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": "_blank",
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/work-better/9-ways-to-verify-online-content-like-a-pro"
+  },
+  {
+    "status": 404,
+    "link_text": "Android",
+    "attr_href": "https://play.google.com/store/apps/details?id=sg.gov.lta.mytransport&hl=en",
+    "is_internal": false,
+    "attr_class": null,
+    "attr_target": "_blank",
+    "resolved_url": "https://play.google.com/store/apps/details?id=sg.gov.lta.mytransport&hl=en",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/work-better/all-things-digital-0915"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/work-better/take-ownership-of-your-employability",
+    "link_text": "Take Ownership Of Your Employability",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": 404,
+    "link_text": "Android",
+    "attr_href": "https://play.google.com/store/apps/details?id=com.wewantsugar",
+    "is_internal": false,
+    "attr_class": null,
+    "attr_target": "_blank",
+    "resolved_url": "https://play.google.com/store/apps/details?id=com.wewantsugar",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/work-better/all-things-digital-0715"
+  },
+  {
+    "status": 404,
+    "link_text": "iOS",
+    "attr_href": "https://itunes.apple.com/us/app/sugar-your-city.-only-sweeter/id865079712?mt=8",
+    "is_internal": false,
+    "attr_class": null,
+    "attr_target": "_blank",
+    "resolved_url": "https://apps.apple.com/us/app/sugar-your-city-only-sweeter/id865079712",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/work-better/all-things-digital-0715"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/work-better/how-changi-airport-wins-fans-foo-sek-min",
+    "link_text": "How Changi Airport Wins Fans, Foo Sek Min",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": 403,
+    "link_text": "bit.ly/bccorsee",
+    "attr_href": "http://bit.ly/bccorsee",
+    "is_internal": false,
+    "attr_class": null,
+    "attr_target": "_blank",
+    "resolved_url": "http://www.huffingtonpost.com/2012/01/22/email-etiquette-bcc_n_1221901.html",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/work-better/do's-and-don'ts-for-email-fields"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/work-better/7-writing-tips-to-simplify-your-message",
+    "link_text": "7 Writing Tips To Simplify Your Message",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": 404,
+    "link_text": "Twitter thread",
+    "attr_href": "http://bit.ly/favgovT",
+    "is_internal": false,
+    "attr_class": null,
+    "attr_target": "_blank",
+    "resolved_url": "https://twitter.com/timecity/status/498699766629298177",
+    "attr_id": null,
+    "page_url": "https://www.psd.gov.sg/challenge/ideas/work-better/all-things-digital-0914"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/work-better/3-myths-that-get-in-the-way-of-collaboration",
+    "link_text": "3 Myths That Get In The Way Of Collaboration",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/work-better/take-ownership-of-your-career-development",
+    "link_text": "Take Ownership Of Your Career Development",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/work-better/instruction-manual-0717",
+    "link_text": "Instruction Manual July 2017",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/work-better/all-things-digital-0515",
+    "link_text": "All Things Digital - May 2015",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  },
+  {
+    "status": "TimeoutError",
+    "attr_href": "/challenge/ideas/work-better/photos-in-print-101-resolution",
+    "link_text": "Photos In Print 101: Resolution",
+    "attr_class": null,
+    "attr_id": null,
+    "attr_target": null,
+    "page_url": "https://www.psd.gov.sg/challenge/sitemap"
+  }
+]
