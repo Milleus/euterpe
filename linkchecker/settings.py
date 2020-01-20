@@ -14,19 +14,25 @@ BOT_NAME = 'linkchecker'
 SPIDER_MODULES = ['linkchecker.spiders']
 NEWSPIDER_MODULE = 'linkchecker.spiders'
 
-
-# RETRY_ENABLED = False
-DOWNLOAD_TIMEOUT = 10 # default 180
-# DNS_TIMEOUT = 10
+# Custom settings
+CONCURRENT_REQUESTS = 100
+REACTOR_THREADPOOL_MAXSIZE = 20
+# LOG_LEVEL = 'INFO'
+# COOKIE_ENABLED = False
+RETRY_ENABLED = False
+DOWNLOAD_TIMEOUT = 30 # default 180
+# REDIRECT_ENABLED = False
+# AJAXCRAWL_ENABLED = True
+ROBOTSTXT_OBEY = True
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'linkchecker (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+# ROBOTSTXT_OBEY = True
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
-#CONCURRENT_REQUESTS = 32
+# CONCURRENT_REQUESTS = 32
 
 # Configure a delay for requests for the same website (default: 0)
 # See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay
