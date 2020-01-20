@@ -8,9 +8,9 @@ from twisted.internet.error import TimeoutError
 
 class CheckAnchorTagsSpider(scrapy.Spider):
     name = 'check_anchor_tags'
-    domain = 'psd.gov.sg'
-    start_urls = ['https://www.psd.gov.sg/']
-    handle_httpstatus_list = [400,403,404,410,500,502]
+    domain = 'tech.gov.sg'
+    start_urls = ['https://www.tech.gov.sg/']
+    handle_httpstatus_list = [400,403,404,406,410,500,502,503]
 
     def parse(self, response):
       if response.status in self.handle_httpstatus_list:
