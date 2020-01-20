@@ -1,7 +1,7 @@
-import stats from './sportsingapore-stats.json';
-import output from './output.json';
+import stats from "./sportsingapore-gov-sg-stats.json";
+import output from "./sportsingapore-gov-sg.json";
 
-const sportsg = output.sort((b, a) => {
+const data = output.sort((b, a) => {
   if (a.clicks < b.clicks) {
     return -1;
   }
@@ -12,36 +12,37 @@ const sportsg = output.sort((b, a) => {
 });
 
 const BROKEN_STATUS = [
+  400,
   403,
   404,
+  406,
   500,
   502,
-  'DNSLookupError',
-  'NoRouteError',
-  'TimeoutError',
+  503,
+  "DNSLookupError",
+  "NoRouteError",
+  "TimeoutError"
 ];
 
-export const working = stats['downloader/response_count'];
+export const working = stats["downloader/response_count"];
 
-export const allData = sportsg.filter(row =>
-  BROKEN_STATUS.includes(row.status),
+export const allData = data.filter(row => BROKEN_STATUS.includes(row.status));
+
+export const internalData = data.filter(
+  row => row.is_internal && BROKEN_STATUS.includes(row.status)
+);
+export const externalData = data.filter(
+  row => !row.is_internal && BROKEN_STATUS.includes(row.status)
 );
 
-export const internalData = sportsg.filter(
-  row => row.is_internal && BROKEN_STATUS.includes(row.status),
-);
-export const externalData = sportsg.filter(
-  row => !row.is_internal && BROKEN_STATUS.includes(row.status),
-);
-
-export const totalBroken = sportsg.filter(row =>
-  BROKEN_STATUS.includes(row.status),
+export const totalBroken = data.filter(row =>
+  BROKEN_STATUS.includes(row.status)
 ).length;
 
-export const internalBroken = sportsg.filter(
-  row => row.is_internal && BROKEN_STATUS.includes(row.status),
+export const internalBroken = data.filter(
+  row => row.is_internal && BROKEN_STATUS.includes(row.status)
 ).length;
 
-export const externalBroken = sportsg.filter(
-  row => !row.is_internal && BROKEN_STATUS.includes(row.status),
+export const externalBroken = data.filter(
+  row => !row.is_internal && BROKEN_STATUS.includes(row.status)
 ).length;

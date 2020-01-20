@@ -1,8 +1,8 @@
 import React, { FC } from "react";
+import { withRouter, RouteComponentProps } from "react-router-dom";
 
 import Button, { ButtonAppearance } from "../../shared-components/Button";
 import GridContainer from "../../shared-components/GridContainer";
-import { withRouter, RouteComponentProps } from "react-router-dom";
 import { ADHOC_SCAN_PAGE } from "../../routes";
 
 const SectionSiteDetails: FC<RouteComponentProps> = ({ history }) => {
@@ -27,7 +27,11 @@ const SectionSiteDetails: FC<RouteComponentProps> = ({ history }) => {
             <div>
               <p>
                 URL:{" "}
-                <a href="https://www.sportsingapore.gov.sg">
+                <a
+                  href="https://www.sportsingapore.gov.sg"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   https://www.sportsingapore.gov.sg
                 </a>
               </p>

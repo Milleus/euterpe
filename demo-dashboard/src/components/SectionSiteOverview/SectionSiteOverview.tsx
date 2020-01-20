@@ -1,27 +1,27 @@
-import React, { FC } from 'react';
+import React, { FC } from "react";
 
-import ChartDoughnut from '../../shared-components/ChartDoughnut';
-import Tooltip from '../../shared-components/Tooltip';
-import Card from '../../shared-components/Card';
-import stats from '../../data/sportsingapore-stats.json';
+import ChartDoughnut from "../../shared-components/ChartDoughnut";
+import Tooltip from "../../shared-components/Tooltip";
+import Card from "../../shared-components/Card";
+import stats from "../../data/sportsingapore-gov-sg-stats.json";
 import {
   internalBroken,
   working,
   totalBroken,
-  externalBroken,
-} from '../../data/utils';
+  externalBroken
+} from "../../data/utils";
 
 const SectionSiteOverview: FC<{}> = () => {
   const chartData = {
-    labels: ['Working Links', 'Internal Broken Links', 'External Broken Links'],
+    labels: ["Working Links", "Internal Broken Links", "External Broken Links"],
     datasets: [
       {
         data: [working - totalBroken, externalBroken, internalBroken], // Specify the data values array
-        backgroundColor: ['#4860af', '#d50d0d', '#800908'],
-        borderColor: ['#4860af', '#d50d0d', '#800908'],
-        borderWidth: 1,
-      },
-    ],
+        backgroundColor: ["#4860af", "#d50d0d", "#800908"],
+        borderColor: ["#4860af", "#d50d0d", "#800908"],
+        borderWidth: 1
+      }
+    ]
   };
 
   return (
@@ -40,7 +40,7 @@ const SectionSiteOverview: FC<{}> = () => {
         <div className="w-full sm:1/2 px-4 flex flex-col">
           <Card className="flex-grow mb-4">
             <h3 className="mb-4 ">Total Links</h3>
-            <h1>{stats['downloader/response_count']}</h1>
+            <h1>{stats["downloader/response_count"]}</h1>
           </Card>
 
           <Card className="flex-grow mt-4">
