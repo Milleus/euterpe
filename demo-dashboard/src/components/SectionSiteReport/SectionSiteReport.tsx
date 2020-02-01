@@ -25,6 +25,49 @@ interface RowData {
   linkClicks: number;
 }
 
+const renderUrl = ({ row: { original } }) => (
+  <div>
+    <a
+      href={original.resolved_url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="break-all"
+    >
+      {original.attr_href}
+    </a>
+    <br />
+    <span className="text-xs">
+      Linked from{" "}
+      <a
+        href={original.page_url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="break-all"
+      >
+        {original.page_url}
+      </a>
+    </span>{" "}
+  </div>
+);
+
+const renderLinkTextHeader = () => (
+  <div className="flex">
+    <div>Anchor Text</div>
+    <Tooltip iconClassName="fa fa-info-circle text-checker-primary">
+      Refers to visible clickable text in a hyperlink
+    </Tooltip>
+  </div>
+);
+
+const renderClicksHeader = () => (
+  <div className="flex">
+    <div>Clicks</div>
+    <Tooltip iconClassName="fa fa-info-circle text-checker-primary">
+      Number of clicks on the link, populated from WOGAA analytics data
+    </Tooltip>
+  </div>
+);
+
 const columns: Array<FilterColumn<RowData>> = [
   {
     Header: "Result",
@@ -34,52 +77,15 @@ const columns: Array<FilterColumn<RowData>> = [
   },
   {
     Header: "URL",
-    Cell: ({ row: { original } }) => (
-      <div>
-        <a
-          href={original.resolved_url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="break-all"
-        >
-          {original.attr_href}
-        </a>
-        <br />
-        <span className="text-xs">
-          Linked from{" "}
-          <a
-            href={original.page_url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="break-all"
-          >
-            {original.page_url}
-          </a>
-        </span>{" "}
-      </div>
-    )
+    Cell: renderUrl
   },
   {
-    Header: () => (
-      <div className="flex">
-        <div>Anchor Text</div>
-        <Tooltip iconClassName="fa fa-info-circle text-checker-primary">
-          Refers to visible clickable text in a hyperlink
-        </Tooltip>
-      </div>
-    ),
+    Header: renderLinkTextHeader,
     accessor: "link_text",
     Cell: ({ row: { original } }) => original.link_text || "-"
   },
   {
-    Header: () => (
-      <div className="flex">
-        <div>Clicks</div>
-        <Tooltip iconClassName="fa fa-info-circle text-checker-primary">
-          Number of clicks on the link, populated from WOGAA analytics data
-        </Tooltip>
-      </div>
-    ),
+    Header: renderClicksHeader,
     accessor: "clicks"
   }
 ];

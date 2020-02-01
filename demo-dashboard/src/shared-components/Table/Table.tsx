@@ -70,10 +70,17 @@ const Table: FC<Props> = ({ columns, data }) => {
       <Card>
         <table {...getTableProps()} className="w-full">
           <thead>
-            {headerGroups.map(headerGroup => (
-              <tr {...headerGroup.getHeaderGroupProps()}>
-                {headerGroup.headers.map(column => (
-                  <th {...column.getHeaderProps()} className="p-2 text-left">
+            {headerGroups.map((headerGroup, index) => (
+              <tr
+                key={`headrow_${index}`}
+                {...headerGroup.getHeaderGroupProps()}
+              >
+                {headerGroup.headers.map((column, index) => (
+                  <th
+                    key={`headcol_${index}`}
+                    {...column.getHeaderProps()}
+                    className="p-2 text-left"
+                  >
                     {column.render("Header")}
                   </th>
                 ))}
@@ -81,13 +88,17 @@ const Table: FC<Props> = ({ columns, data }) => {
             ))}
           </thead>
           <tbody {...getTableBodyProps()}>
-            {page.map(row => {
+            {page.map((row, index) => {
               prepareRow(row);
               return (
-                <tr {...row.getRowProps()}>
-                  {row.cells.map(cell => {
+                <tr key={`bodyrow_${index}`} {...row.getRowProps()}>
+                  {row.cells.map((cell, index) => {
                     return (
-                      <td {...cell.getCellProps()} className="p-2 text-sm">
+                      <td
+                        key={`bodycol_${index}`}
+                        {...cell.getCellProps()}
+                        className="p-2 text-sm"
+                      >
                         {cell.render("Cell")}
                       </td>
                     );
